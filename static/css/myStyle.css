@@ -1,0 +1,102 @@
+﻿body{
+   
+}
+
+header {
+    background: url('../img/coffee.jpg') no-repeat ;
+    color:white;
+    height:800px;
+    text-align:center;
+}
+
+#myBrand{
+    color:coral;
+}
+
+#services {
+    margin-top: 30px;
+    text-align: center;
+    padding:80px;
+   
+}
+    #services h4, h2 {
+        padding-top: 20px;
+        padding-bottom: 50px;
+        text-align: center;
+    }
+#services p{
+    padding:18px;
+}
+    #services h5 , #about h5{
+        padding-top: 10px;
+        color:coral;
+    }
+
+.myCard {
+    background-color: #333;
+    color: white;
+    border-radius: 5%;
+    width: 20rem;
+    height: 12rem;
+}
+
+
+
+.myMargRight{
+    margin-right:220px;
+}
+.myMargBott {
+    margin-bottom: 40px;
+}
+.myPaddLeft{
+    padding-left:30px;
+}
+
+
+.myText{
+    padding-top:130px;
+    font-family:'Arial Rounded MT';
+}
+
+#menu {
+    margin-top: 120px;
+    padding: 50px;
+    background-color: #333;
+}
+#menu h2 , #order h2{
+    color:coral;
+    padding-bottom:40px;
+}
+
+
+
+
+
+
+.myList{
+    list-style:none;
+}
+
+
+
+.Transp {
+    background-color: rgba(0,0,0,0.0);
+    color:white;
+}
+
+
+.myBtn {
+    background-color: darkcyan;
+    color:white;
+}
+
+#order {
+    background-color: #333;
+    padding: 60px;
+   color:white;
+   margin:30px;
+}
+#order img{
+    width:120%;
+  padding-right:80px;
+}

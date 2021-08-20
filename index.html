@@ -1,0 +1,319 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="static/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link href="static/css/myStyle.css" rel="stylesheet">
+
+    <title>COFFEE HOUSE</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-md navbar-dark">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse Transp" id="navbarTogglerDemo01">
+                    <a class="navbar-brand myMargRight" href="index.html">COFFY <span id="myBrand">HOUSE</span></a>
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+                        <li class="nav-item myPaddLeft">
+                            <a class="nav-link" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item myPaddLeft">
+                            <a class="nav-link" aria-current="page" href="#services">Services</a>
+                        </li>
+                        <li class="nav-item myPaddLeft">
+                            <a class="nav-link" aria-current="page" href="#menu">Menu</a>
+                        </li>
+                        <li class="nav-item myPaddLeft">
+                            <a class="nav-link" aria-current="page" href="#order">Order</a>
+                        </li>
+                        <li class="nav-item myPaddLeft">
+                            <a class="nav-link" aria-current="page" href="#about">About</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button type="button" class="btn myBtn">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+        <div class="myText lead">
+            <h1>COFFEE HOUSE</h1>
+            <br />
+            <div>
+                <p>
+                    Serving only the best coffee in the city
+                </p>
+                <p>
+                    We ensure organic coffee for you, Hopping you enjoy it
+                </p>
+            </div>
+            <br />
+            <button type="button" class="myBtn btn btn-lg" onclick="location.href = '#order';">Order Now</button>
+        </div>
+    </header>
+
+    <section id="services">
+        <div class="container-sm  ">
+            <h2 class="display-5">Our Services</h2>
+            <div class="row ">
+                <div class="col myMargBott">
+                    <div class="card myCard" onmouseover="mOver(this)" onmouseout="mOut(this)">
+
+                        <div class="card-body ">
+                            <h5>&#128187; Online Ordering</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col myMargBott">
+                    <div class="card myCard" onmouseover="mOver(this)" onmouseout="mOut(this)">
+
+                        <div class="card-body ">
+                            <h5>&#9993; Delivery</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col myMargBott">
+                    <div class="card myCard" onmouseover="mOver(this)" onmouseout="mOut(this)">
+
+                        <div class="card-body ">
+                            <h5>&#127908; Live Music</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row ">
+                <div class="col myMargBott">
+                    <div class="card myCard" onmouseover="mOver(this)" onmouseout="mOut(this)">
+
+                        <div class="card-body ">
+                            <h5>&#9917; Sporting events</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col myMargBott">
+                    <div class="card myCard" onmouseover="mOver(this)" onmouseout="mOut(this)">
+
+                        <div class="card-body ">
+                            <h5>&#128246;  Free WiFi</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col myMargBott">
+                    <div class="card myCard" onmouseover="mOver(this)" onmouseout="mOut(this)">
+
+                        <div class="card-body ">
+                            <h5>&#127879; Holiday Parties</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="menu">
+        <h2 class="display-5">Our Menu</h2>
+        <div class="row row-cols-1 row-cols-md-3 g-4 myMargBott">
+            <div class="col">
+                <div class="card h-100 ">
+                    <img src="static/img/coffee-beans.jpg" class="card-img-top" alt="coffe beans">
+                    <div class="card-body">
+                        <h5 class="card-title">COFFEE</h5>
+                        <ul class="myList">
+                            <li>Americano ............</li>
+                            <li>-Espresso ............</li>
+                            <li>-Cappuccino ..........</li>
+                            <li>Macchiato ............</li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="static/img/tea.jpg" class="card-img-top" alt="tea">
+                    <div class="card-body">
+                        <h5 class="card-title">TEA</h5>
+                        <ul class="myList">
+                            <li>Green Tea ............</li>
+                            <li>Vanilla Tea ..........</li>
+                            <li>Herbal Tea ..........</li>
+                            <li>Black Tea ...........</li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="static/img/cupcakes.jpg" class="card-img-top" alt="cupakes">
+                    <div class="card-body">
+                        <h5 class="card-title">DESSERTS</h5>
+                        <ul class="myList">
+                            <li>Ice cream ............</li>
+                            <li>Apple pie ............</li>
+                            <li>Bananas faster pie ...</li>
+                            <li>Triple chocolate .....</li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section id="order">
+        <h2 class="display-5">Order Now</h2>
+        <br />
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-8">
+                    <form name="myForm" action="/action_page.php" id="myForm" method="post" onsubmit="return validateForm()">
+                        <div class="col-sm-8">
+                            <label for="name" class="form-label">Name</label>
+                            <input type="text" class="form-control" id="name" name="name" placeholder="Your name...">
+                        </div>
+                        <div class="col-sm-8">
+                            <label for="phone" class="form-label">Phone N°</label>
+                            <input type="text" class="form-control" id="phone" name="phone" placeholder="Your phone n°...">
+                        </div>
+                        <div class="col-sm-8">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="text" class="form-control" id="email" name="email" placeholder="Your email...">
+                        </div>
+                        <div class="col-sm-8">
+                            <label for="number of Attendees" class="form-label">Number of Attendees</label>
+                            <input type="number" class="form-control" id="number of Attendees" name="number of Attendees" placeholder="number of people ...">
+                        </div>
+                        <div class="col-sm-8">
+                            <label for="date" class="form-label">Date</label>
+                            <input type="date" class="form-control" id="date" name="date">
+                        </div>
+                        <div class="col-sm-8">
+                            <label for="time" class="form-label">Time</label>
+                            <input type="time" class="form-control" id="time" name="time">
+                        </div>
+                        <br />
+                        <button type="submit" class="btn  myBtn" >
+                            Submit
+                        </button>
+                    </form>
+                    
+                </div>
+                <div class="col-sm-4">
+                    <img src="static/img/waiter.jpg" class="d-none d-sm-block d-flex" alt="waiter"/>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+
+    <section id="about">
+        <h2 class="display-5">About us</h2>
+        <div class="container-sm text-center mb-5">
+            <div class="card mb-3 m-5 bg-dark py-4 text-white" style="max-width: 900px;">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="static/img/girl-drink.jpg" class="img-fluid px-3" alt="girl drink coffee">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">Our vision</h5>
+                            <p class="card-text">Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un imprimeur anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card mb-3  m-5 py-4 bg-dark text-white" style="max-width: 900px;">
+                <div class="row g-0 flex-row-reverse">
+                    <div class="col-md-4">
+                        <img src="static/img/coffee-pot.jpg" class="img-fluid px-3" alt="coffee">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">Our Approch</h5>
+                            <p class="card-text">Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un imprimeur anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card mb-3  m-5 py-4 bg-dark text-white" style="max-width: 900px;">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="static/img/coffee-shop.jpg" class="img-fluid px-3" alt="coffee shop">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">Our Process</h5>
+                            <p class="card-text">Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un imprimeur anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices. </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+       <hr />
+        <div class="container-sm text-center pt-3 px-5 mt-5">
+            <div class="row">
+                <div class="col ">
+                    <h4>Our Location</h4>
+                    <ul class="myList">
+                        <li>Xyz street, ......</li>
+                        <li>Marrakesh,........</li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <h4>Opening Hours</h4>
+                    <ul class="myList">
+                        <li>Monday-Sunday</li>
+                        <li>8:00 AM - 11:00 PM</li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <h4>Contact us</h4>
+                    <ul class="myList">
+                        <li>95 (61) 346613895</li>
+                        <li> coffe-house@gmail.com</li>
+                        <li><i class="bi bi-facebook px-2"></i><i class="bi bi-instagram px-2"></i> <i class="bi bi-twitter"></i></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="bg-dark text-white text-center position-relative mt-5 py-3">
+        <div class="container">
+            <p>Copyrigth &copy; 2021 Yassir Boui</p>
+            <a href="#" class="position-absolute bottom-0 end-0 p-3" style="color:cadetblue">
+                <i class="bi bi-arrow-up-circle-fill h2"></i>
+            </a>
+        </div>
+    </footer>
+
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+    <script src="static/js/bootstrap.min.js"></script>
+    <script src="static/js/myScript.js"></script>
+
+</body>
+</html>
